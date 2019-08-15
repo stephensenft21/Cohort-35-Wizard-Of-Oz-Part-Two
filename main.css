@@ -81,3 +81,30 @@ text-align: center;
 footer a{
 color: goldenrod;
 }
+
+
+.flex-item{
+    background-color: orange;
+    width: 30%;
+    margin:1em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.section-item{
+    background-image: url("IMG/witch\ of\ the\ east.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+
+}
